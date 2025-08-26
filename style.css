@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(135deg, #ffe6f7, #e6f0ff);
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  color: #6c5ce7;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+audio {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.small {
+  font-style: italic;
+}
+
+.vn-card {
+  min-height: 280px; 
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+.vn-card:hover {
+  transform: translateY(-5px);
+}
+.preview-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  max-height: 200px;  
+  object-fit: cover; 
+}
