@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".vn-card[data-audio]");
-  const aksesJam = 19; // jam akses default
+  const aksesJam = 22; // jam akses default
 
   cards.forEach(card => {
     const date = card.getAttribute("data-date");  
@@ -100,4 +100,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
 
